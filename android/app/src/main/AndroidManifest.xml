@@ -31,4 +31,6 @@
             </intent-filter>
         </activity>
     </application>
+    <permission android:name="android.permission.BLUETOOTH" android:label="BLUETOOTH" />
+    <permission android:name="android.permission.BLUETOOTH_ADMIN" />
 </manifest>

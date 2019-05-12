@@ -12,7 +12,7 @@ void main() => runApp(
     routes: <String, WidgetBuilder>{
       'app': (BuildContext context) => App(),
       '/friends': (BuildContext context) => WebviewScaffold(
-        url: 'https://www.baidu.com',
+        url: 'http://www.baidu.com/',
         appBar: AppBar(
           title: Text('百度一下'),
         ),
